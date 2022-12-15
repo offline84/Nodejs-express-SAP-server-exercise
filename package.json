@@ -1,0 +1,28 @@
+{
+  "name": "xsuaaxrcise",
+  "version": "1.0.0",
+  "description": "Trying to establish a server in nodejs with a jobscheduler and xsuaa authorisation",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/offline84/Nodejs-express-SAP-server-exercise.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "SAP",
+    "cf"
+  ],
+  "author": "Ken De Crop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/offline84/Nodejs-express-SAP-server-exercise/issues"
+  },
+  "homepage": "https://github.com/offline84/Nodejs-express-SAP-server-exercise#readme",
+  "dependencies": {
+    "simple-node-server": "^1.7.0"
+  }
+}
