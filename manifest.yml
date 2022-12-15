@@ -1,0 +1,10 @@
+applications:
+-   name: XsuaaXrcise
+    path: ./app
+    memory: 128M
+    health-check-type: process
+    buildpacks:
+        - nodejs_buildpack
+    services:
+        - xsuaaXrcise
+        - jobschedulerXrcise

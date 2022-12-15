@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/offline84/Nodejs-express-SAP-server-exercise#readme",
   "dependencies": {
-    "simple-node-server": "^1.7.0"
+    "node": "^19.3.0",
+    "simple-node-server": "^1.5.6"
   }
 }
