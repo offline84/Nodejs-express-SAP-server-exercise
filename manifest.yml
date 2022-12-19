@@ -5,7 +5,7 @@ applications:
     buildpacks:
         - nodejs_buildpack
     services:
-        - xsuaaXrcise
+        - xsuaaAuthXrcise
         - jobschedulerXrcise
     env:
-        SAP_JWL_TRUST_ACL: [{"clientid":"*", indentityzone:"*"}]
+        SAP_JWL_TRUST_ACL: [{"clientid":"sb-jobscheduler", "identityzone": "*"}]
